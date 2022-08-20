@@ -1,0 +1,10 @@
+<nav class="top-nav">
+ <a class="nav-item" href="/">Home</a>
+ {{ if .LoggedOut }}
+ <a class="nav-item" href="/register">Register</a>
+ <a class="nav-item" href="/login">Login</a>
+{{ else if .LoggedIn }} 
+ <a class="nav-item" href="/new">Photo</a>
+ <a class="nav-item" href="/logout">Logout</a>
+{{ end }}
+</nav>

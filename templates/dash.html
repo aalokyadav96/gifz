@@ -1,0 +1,26 @@
+
+{{range . }}
+<section class="poptags">
+          <article class="featured-article-line">
+            <span style="font-size:18px;font-weight: bold;color:#000000">{{ .Userid }}</span>
+          </article>
+          <div class="card">
+            <div class="details">
+					<p class="imgpost">
+						<img src="/img/{{ .Imgname }}">
+					</p>
+              <div class="middle">
+                <div style="display:none;">{{ .Postid }}</div>
+                <p class="description">{{ .Content }}</p>
+              </div>
+              <div class="top">
+                <p class="title">{{ .Title }}</p>
+                <p><a href="/post/{{ .Postid }}">View Full Post</a></p>
+              </div>
+              <div class="bottom">
+                <p class="from">{{ .Tags }}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+{{ end }}

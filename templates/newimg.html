@@ -1,0 +1,23 @@
+<body>
+<form enctype="multipart/form-data"  method="POST" action="/new" >
+    <input accept="image/*" type='file' id="imgInp" name="uploadfile">
+    <input type="hidden" name="token" value="{{.Token}}">
+		<input type="hidden" name="imgurl" placeholder="Image URL" value="">
+		<input type="text" name="cap" placeholder="Caption" value="">
+		<input type="text" name="tags" placeholder="Tags" value="" >
+		<input type="submit">
+	</form>
+	<script>
+	imgInp.onchange = evt => {
+  const [file] = imgInp.files
+  if (file) {
+    blah.src = URL.createObjectURL(file);
+    blah.style.display = "block";
+  }
+}
+</script>
+
+  <img id="blah" src="#" alt="your image" style="display:none;"/>
+
+</body>
+</html>

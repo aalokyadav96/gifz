@@ -1,0 +1,25 @@
+{{ range . }}
+<section class="poptags">
+          <article class="featured-article-line">
+            <span style="font-size:18px;font-weight: bold;color:#000000">{{ .Userid }}</span>
+          </article>
+          <div class="card">
+            <div class="details">
+					<p class="imgpost">
+						<img src="/usrimg/{{ .Userimg }}">
+					</p>
+              <div class="middle">
+                <div style="display:none;">{{ .Userid }}</div>
+                <p class="description">{{ .Bio }}</p>
+              </div>
+              <div class="top">
+                <p class="title">{{ .LastActive }}</p>
+               </div>
+              <div class="bottom">
+                <p class="from">{{ .Name }}</p>
+              </div>
+            </div>
+          </div>
+        </section>
+		
+		{{ end }}

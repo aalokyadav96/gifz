@@ -1,0 +1,105 @@
+.poptags {
+    background: #fff;
+    margin: 8px 0 16px 0;
+    box-shadow: 0px 0px 10px rgb(232 232 232);
+}
+.featured-article-line {
+    padding: 10px 18px;text-shadow:none;border-bottom:1px solid #eee;
+}
+input[type=text] {
+    outline: none;
+    padding: 1rem;
+    background: rgb(236, 237, 238);
+    width: 100%;
+    -webkit-appearance: none;
+    font-family: inherit;
+    font-size: 100%;
+margin: 0.3rem 0;
+}
+
+input[type=submit] {
+    outline: none;
+    padding: 1rem;
+    background: rgb(236, 237, 238);
+    width: 50%;
+    -webkit-appearance: none;
+    font-family: inherit;
+    font-size: 120%;
+margin: 0.3rem 0;
+}
+
+  .card {
+    background-color: #fff;
+    height: auto;
+    width: auto;
+    font-family: "Segoe UI", arial, sans-serif;
+  }
+
+  .featured-article-line:hover {
+    box-shadow: 0px 0px 10px rgb(232 232 232);
+  }
+
+  .image img{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    object-fit: contain;
+    border: 0px solid transparent;
+  }
+  .details {
+    width: 100%;
+  }/*
+  .top,
+  .middle,
+  .fiddle,
+  .bottom {
+    position: relative;
+    margin: 0;
+    padding: 0px 7px;
+  }*/
+  .top .pinner {
+    margin: 0 0 5px 0;
+  }
+  .top .pinner img {
+    height: 20px;
+    width: 20px;
+    border-radius: 100%;
+    display: inline;
+  }
+  .top .pinner p {
+    color: #ccc;
+    position: relative;
+    top: 0px;
+    display: inline;
+  }
+  .top .title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .middle {
+    padding-top: 0px;
+  }
+  .middle div,
+  .middle span {
+    display: inline-block;
+    color: #03a9f4;;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .middle p {
+    margin-bottom: 6px;
+    margin-top: 6px;
+    font-family: "Montserrat",sans-serif;
+  }
+  .bottom .from {
+    color: #de6565;
+    font-family: "Segoe UI";
+  }
+  p {
+    font-size: 14px;
+    margin: 0 0 4px 0;
+  }
+
+ #blah {
+	width: 100%;
+}
